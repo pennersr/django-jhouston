@@ -23,7 +23,7 @@ METADATA = dict(
         'Framework :: Django',
     ],
     packages=find_packages(),
-    package_data={'jhouston': ['static/js/*.js' ] }
+    package_data={'jhouston': ['static/jhouston/js/*.js' ] }
 )
 
 if __name__ == '__main__':
